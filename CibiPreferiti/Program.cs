@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-string[] cibiPreferiti = { "Pizza", "Pasta", "Gelato", "Formaggio", "Lasagna", "Panelle", "Pollo"};
+string[] cibiPreferiti = { "Pizza", "Pasta", "Gelato", "Lasagna", "Panelle", "Pollo"};
 
 //stampare la lunghezza della classifica
 
@@ -25,7 +25,7 @@ Console.WriteLine("Il mio cibo preferito ma non troppo è " + cibiPreferiti[cibi
 
 if(cibiPreferiti.Length % 2 == 0)
 {
-    Console.WriteLine($"La classifica non ha una mediana");
+    Console.WriteLine($"La mediana di questa classifica è {cibiPreferiti[cibiPreferiti.Length / 2 - 1]} e {cibiPreferiti[cibiPreferiti.Length / 2]}");
 } else
 {
     Console.WriteLine($"La mediana di questa classifica è {cibiPreferiti[cibiPreferiti.Length / 2]}");
